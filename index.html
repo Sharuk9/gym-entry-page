@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHARUK FITNESS</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    body{
+        font-family: 'Roboto Slab', serif; 
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://media.gettyimages.com/photos/hard-as-a-rock-picture-id540101544?s=2048x2048')  ;
+
+        /* background: url('https://c4.wallpaperflare.com/wallpaper/206/268/839/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg'); */
+    
+    }
+    .left{
+        position: absolute;
+        left: 25px;
+        top:  13px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+    .left img{
+        width: 63px;
+    }
+    .mid{
+       
+      display: block;
+      width: 55%;
+      margin: 15px auto ;
+        /* border: 2px solid green; */
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top:  34px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+        font-size: 24px;
+    }
+    .navbar li{
+        
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        /* text-decoration:ka use home about aur etc k niche line ko hatane k leya  */
+                text-decoration: none;
+                padding: 30px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+      text-decoration: underline;
+      color: red;
+    }
+    .btn{
+        font-family: 'Roboto Slab', serif;
+        margin: 0px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: red;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px 103px;
+        padding: 75px;
+        width: 36%;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        color: red;
+        
+
+    }
+    .container button{
+        display: block;
+        width: 20%;
+        margin: auto;
+    }
+</style>
+<body>
+    <header class="class">
+        <!-- left box for logo  -->
+        <div class="left">
+       <img src="logo1.jpg" alt="">
+       <div>SHARUK</div>
+        </div>
+        <!-- mid box for navar  -->
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active"></a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Phone</a></li>
+        </ul>
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+       <buttton class="btn"><a href="http://google.com">Google</a></buttton>
+       <buttton class="btn"><a href="http://facebook.com" >facebook</a></buttton>
+       
+        </div>
+    </header>
+    <div class="container">
+     <h1>Join The Best Gym Of Ghaziabad Now</h1>
+     <form action="noaction.php">
+         <div class="formgroup">
+           <input type="text" name="" placeholder="Enter your Name">
+         </div>
+         <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Age">
+          </div>
+          <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Gender">
+          </div>
+          <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Locality">
+          </div>
+          <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Phone">
+          </div>
+          <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Email">
+          </div>
+          <button class="btn">SUBMIT</button>
+     </form>
+    </div>
+</body>
+</html>
